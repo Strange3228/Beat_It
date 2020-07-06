@@ -1,5 +1,7 @@
 .hero{
     min-height: calc(100vh - 130px);
+    background-image: url("Images/prism.png");
+    
 }
 .container{
     padding: 20px;
@@ -18,17 +20,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: solid 1px rgb(213, 223, 250);
+    border: solid 1px rgb(161, 161, 161);
+    border-radius: 100px;
+}
+.subtitle{
+    color: white;
 }
 .place_for_music{
     width: 30%;
     height: 25%;
-    background-color: coral;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
 }
 .beat_div{
     height: 50%;
     width: 30%;
     background-color: rgb(109, 109, 109);
+    border-radius: 100px;
     z-index: 1;
 }
 .beat_movable{
@@ -37,6 +45,7 @@
     width: 6%;
     background-color: rgb(43, 180, 173);
     z-index: 10;
+    border-radius: 100px;
 }
 
 .grid1{

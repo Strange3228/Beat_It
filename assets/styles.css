@@ -1,14 +1,17 @@
 .navbar {
-  height: 85px;
+  height: 75px;
   padding: 10px;
-  border-bottom: 2px black solid;
+  border-bottom: 10px black solid;
+  background-color: #8a8a8a;
 }
 
 .footer {
-  padding: 5px;
-  height: 40px;
+  padding: 10px;
+  height: 55px;
   background-color: white;
   border-top: 2px black solid;
+  background-color: #8a8a8a;
+  color: white !important;
 }
 
 .footer-items {
@@ -22,6 +25,7 @@
 
 .hero {
   min-height: calc(100vh - 130px);
+  background-image: url("Images/prism.png");
 }
 
 .container {
@@ -55,19 +59,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: solid 1px #d5dffa;
+  border: solid 1px #a1a1a1;
+  border-radius: 100px;
+}
+
+.subtitle {
+  color: white;
 }
 
 .place_for_music {
   width: 30%;
   height: 25%;
-  background-color: coral;
+  background-color: white;
+  border-radius: 100px;
 }
 
 .beat_div {
   height: 50%;
   width: 30%;
   background-color: #6d6d6d;
+  border-radius: 100px;
   z-index: 1;
 }
 
@@ -77,6 +88,7 @@
   width: 6%;
   background-color: #2bb4ad;
   z-index: 10;
+  border-radius: 100px;
 }
 
 .grid1 {
