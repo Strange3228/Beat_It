@@ -37,6 +37,22 @@ $(document).ready(function(){
     var beatInterval14 = setInterval(function(){console.log("tratatata");}, 100000);
     var beatInterval15 = setInterval(function(){console.log("tratatata");}, 100000);
 
+    var open_modal_btn = document.getElementById("open_modal_btn");
+    var modal = document.getElementById("modal");
+    var close_modal = document.getElementsByClassName("modal-close")[0];
+
+    open_modal_btn.onclick = function() {
+      modal.style.display ='block';
+    }
+    close_modal.onclick = function() {
+      modal.style.display ='none';
+    }
+    window.onclick = function(event) {
+      if (event.target.className == 'modal-background') {
+        modal.style.display = "none";
+      }
+    }
+
     function playAudio(beat){
       if(beat === beat1){
         beatInterval1 = setInterval(function(){beat.play();}, 10)
@@ -121,6 +137,7 @@ $(document).ready(function(){
     dragElement(document.getElementById("movable_div14"));
     dragElement(document.getElementById("movable_div15"));
 
+    
     function dragElement(elmnt) {
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
         let start_place_top = elmnt.offsetTop;

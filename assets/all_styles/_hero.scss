@@ -1,7 +1,6 @@
 .hero{
     min-height: calc(100vh - 130px);
     background-image: url("Images/prism.png");
-    
 }
 .container{
     padding: 20px;
@@ -13,6 +12,7 @@
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 40% 20% 20% 20%;
+    grid-gap: 0px;
     position: relative;
 }
 .grid-item{
@@ -20,7 +20,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: solid 1px rgb(161, 161, 161);
     border-radius: 100px;
 }
 .subtitle{
@@ -29,13 +28,14 @@
 .place_for_music{
     width: 30%;
     height: 25%;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     border-radius: 100px;
 }
 .beat_div{
     height: 50%;
     width: 30%;
-    background-color: rgb(109, 109, 109);
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
     border-radius: 100px;
     z-index: 1;
 }
@@ -43,7 +43,7 @@
     position: absolute;
     height: 10%;
     width: 6%;
-    background-color: rgb(43, 180, 173);
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
     z-index: 10;
     border-radius: 100px;
 }
@@ -71,60 +71,89 @@
 .grid6{
     grid-row: 2;
     grid-column: 1;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid7{
     grid-row: 2;
     grid-column: 2;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid8{
     grid-row: 2;
     grid-column: 3;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid9{
     grid-row: 2;
     grid-column: 4;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid10{
     grid-row: 2;
     grid-column: 5;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid11{
     grid-row: 3;
     grid-column: 1;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid12{
     grid-row: 3;
     grid-column: 2;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid13{
     grid-row: 3;
     grid-column: 3;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid14{
     grid-row: 3;
     grid-column: 4;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid15{
     grid-row: 3;
     grid-column: 5;
+    border: solid 1px rgb(161, 161, 161);
 }
 .grid16{
+    border: solid 1px rgb(161, 161, 161);
     grid-row: 4;
     grid-column: 1;
 }
 .grid17{
+    border: solid 1px rgb(161, 161, 161);
     grid-row: 4;
     grid-column: 2;
 }
 .grid18{
+    border: solid 1px rgb(161, 161, 161);
     grid-row: 4;
     grid-column: 3;
 }
 .grid19{
+    border: solid 1px rgb(161, 161, 161);
     grid-row: 4;
     grid-column: 4;
 }
 .grid20{
+    border: solid 1px rgb(161, 161, 161);
     grid-row: 4;
     grid-column: 5;
+}
+
+.modal-background{
+    background-color: rgba(10, 10, 10, 0.637);
+}
+.modal-card{
+    margin-top: 125px;
+    border-radius: 50px;
+    text-align: center;
+    width: 25%;
+    border: rgba(155, 155, 155, 0.726) solid 10px;
+}
+.modal-card-head{
+    background-color: rgb(100, 100, 100);
 }

@@ -1,7 +1,27 @@
 .navbar{
     height: 75px; 
     padding: 10px;
-    border-bottom: 10px black solid;
-    background-color:rgb(138, 138, 138);
-    
+    background-image: url("Images/prism.png");
+}
+.brand-text{
+    position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size:60px;
+    letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  text-shadow: 
+						8px 8px #8f8f8f9c,
+						20px 20px #08080886;
+}
+.instruction-btn{
+    text-transform: uppercase;
+    width: 200px;
+    height: 55px;
+    background-color: rgb(26, 26, 26) !important;   
+    margin-top: 30px;
+    border: rgba(155, 155, 155, 0.726) solid 3px !important;
 }

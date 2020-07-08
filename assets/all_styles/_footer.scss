@@ -1,13 +1,14 @@
 .footer{
-    padding: 10px;
+    padding: 5px;
     height: 55px;
     background-color: white;
-    border-top: 2px black solid;
-    background-color:rgb(138, 138, 138);
-    color: white !important;  
-    
+    border-top: 5px rgba(71, 71, 71, 0.644) solid;
+    background-image: url("Images/prism.png");
 }
 .footer-items{
     display: flex;
     justify-content: space-between;
+}
+.footer-text{
+    text-shadow: 1px 1px 5px black;
 }
