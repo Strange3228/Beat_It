@@ -1,10 +1,9 @@
 .navbar {
   height: 75px;
   padding: 10px;
-  background-image: url("Images/prism.png");
 }
 
-.brand-text {
+.brand-text-style1 {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -16,6 +15,20 @@
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   text-shadow: 8px 8px #8f8f8f9c, 20px 20px #08080886;
+}
+
+.brand-text-style2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #89e65e;
+  text-shadow: 8px 8px #e3fae650, 20px 20px #08080886;
 }
 
 .instruction-btn {
@@ -30,9 +43,7 @@
 .footer {
   padding: 5px;
   height: 55px;
-  background-color: white;
-  border-top: 5px rgba(71, 71, 71, 0.644) solid;
-  background-image: url("Images/prism.png");
+  border-top: 5px rgba(71, 126, 39, 0.425) solid;
 }
 
 .footer-items {
@@ -50,7 +61,14 @@
 
 .hero {
   min-height: calc(100vh - 130px);
+}
+
+.bg-style1 {
   background-image: url("Images/prism.png");
+}
+
+.bg-style2 {
+  background-image: url("Images/bgtest2.jpg");
 }
 
 .container {
@@ -289,5 +307,15 @@
 
 .modal-card-head {
   background-color: #646464;
+}
+
+.place_for_music_bg_style2 {
+  background-color: #fee2f8;
+  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+}
+
+.movable-bg-style2 {
+  background-color: #52a7c1;
+  background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
 }
 /*# sourceMappingURL=styles.css.map */

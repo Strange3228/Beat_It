@@ -1,9 +1,8 @@
 .navbar{
     height: 75px; 
     padding: 10px;
-    background-image: url("Images/prism.png");
 }
-.brand-text{
+.brand-text-style1{
     position: absolute;
   top: 50%;
   left: 10%;
@@ -16,6 +15,20 @@
   text-shadow: 
 						8px 8px #8f8f8f9c,
 						20px 20px #08080886;
+}
+.brand-text-style2{
+  position: absolute;
+top: 50%;
+left: 10%;
+transform: translate(-50%, -50%);
+font-size:60px;
+  letter-spacing:0.1em;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: rgb(137, 230, 94);
+text-shadow: 
+          8px 8px #e3fae650,
+          20px 20px #08080886;
 }
 .instruction-btn{
     text-transform: uppercase;
